@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Book</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" type="module" defer></script>
+</head>
+
+<body>
+    <form action="">
+        <div class="container">
+
+            <div class="contact_block">Contacts</div>
+            <div class="card">
+                <div class="prfImg">
+                    <input type="file" name="" id="">
+                </div>
+                <div class="label">
+                    <div class="username">Full Name</div>
+                    <input type="text" id="username" class="input inpt-val">
+                </div>
+                <div class="label">
+                    <div class="phone-num">Phone Number</div>
+                    <input type="text" class="input inpt-val" id="phone">
+                </div>
+
+                <div class="gender label">
+                    <label>Gender: </label>
+                    <label for="male"><input type="radio" name="gender" id="male" value="male" class="inpt-val">Male</label>
+                    <label for="female"> <input type="radio" name="gender" id="female" value="female" class="inpt-val">Female</label>
+                </div>
+                <button class="save pd">
+                 Save 
+            </button>
+            </div>
+        </div>
+    </form>
+    <div class="contact-display">
+        <div class="container">
+            <div class="card">
+
+                <div class="vewContact">
+                    <input type="text" id="search-input" placeholder="Find a contact" autofocus>
+
+                    <div class="contact-list">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
