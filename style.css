@@ -89,6 +89,9 @@ form {
     font-size: 16PX;
 }
 
+.edit,
+.delete,
+.saveEdit,
 label {
     cursor: pointer;
 }
@@ -134,7 +137,6 @@ label {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     row-gap: 3rem;
     color: var(--txt-clr);
 }
@@ -155,9 +157,6 @@ label {
 
 .contact-list {
     display: grid;
-    /* border-radius: 5px;
-    place-items: center;
-    place-content: center; */
 }
 
 .grid img {
